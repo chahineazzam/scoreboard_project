@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    background-image:url("./garfield.jpg");
+    padding: 12px 10px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: antiquewhite;
+    gap: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+.container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* .middle {
+    align-self: flex-end;
+} */
+
+.scoreBg {
+    background-color: #121212;
+    height: 100px;
+    width: 145px;
+    padding: 4px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    letter-spacing: .5pc;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;                               
+    font-size: xx-large;
+    color: indianred;
+}
+
+.pointButton {
+    background-color: transparent;
+    padding: 8xp;
+    height: 45px;
+    width: 45px;
+    color: #9AABD8;
+    border: #9AABD8 1px solid;
+    border-radius: 5px;
+}
+
+.resetButton {
+    background-color: transparent;
+    padding: 2xp 4px;
+    height: 30px;
+    width: 30px;
+    color: indianred;
+    border: indianred 1px solid;
+    border-radius: 5px;
+}
+
+.lead {
+    color: greenyellow;
+}
